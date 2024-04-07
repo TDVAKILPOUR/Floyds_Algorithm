@@ -13,7 +13,7 @@ def floyd_warshall_recursive(graph, k, i, j):
 if __name__ == "__main__":
     # Example graph (replace with your own)
     graph = [
-        [0, 3, float("inf"), 7],
+        [0, 3, float("inf"), 8],
         [8, 0, 2, float("inf")],
         [5, float("inf"), 0, 1],
         [2, float("inf"), float("inf"), 0]
