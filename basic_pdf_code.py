@@ -1,5 +1,3 @@
-import sys
-import itertools as it
 import numpy as np
 
 if __name__ == "__main__":
@@ -11,6 +9,7 @@ if __name__ == "__main__":
         [2, np.inf, np.inf, 0]
     ])
 
+
 def floyd_algorithm(graph):
     num_nodes = len(graph)
     distance = np.copy(graph)
@@ -20,9 +19,12 @@ def floyd_algorithm(graph):
             for end_node in range(num_nodes):
                 if start_node == end_node:
                     continue
-                distance[start_node][end_node] = min(distance[start_node][end_node], distance[start_node][intermediate] + distance[intermediate][end_node])
+                distance[start_node][end_node] = min(distance[start_node][end_node],
+                                                     distance[start_node][intermediate] + distance[intermediate][
+                                                         end_node])
 
     return distance
+
 
 shortest_distances = floyd_algorithm(graph)
 print("Shortest distance:")
