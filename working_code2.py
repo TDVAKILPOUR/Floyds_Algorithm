@@ -20,6 +20,8 @@ if __name__ == "__main__":
     ]
 
     n = len(graph)
-    for i in range(n):
-        for j in range(n):
-            print(f"Shortest path from vertex {i} to {j}: {floyd_warshall_recursive(graph, n - 1, i, j)}")
+    shortest_distances = [[floyd_warshall_recursive(graph, n - 1, i, j) for j in range(n)] for i in range(n)]
+
+    # Print the 2D array
+    for row in shortest_distances:
+        print(row)
