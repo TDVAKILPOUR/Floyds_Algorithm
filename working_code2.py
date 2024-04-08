@@ -1,5 +1,5 @@
 def floyd_warshall_recursive(graph, k, i, j):
-    if k == 0:
+    if k == 3:
         return graph[i][j]
 
     # Calculate the distance through vertex k
