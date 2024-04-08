@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="964da7e2-c5d8-49dc-842b-6654f4f581b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Floyds_Algorithm_2nd_attempt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="964da7e2-c5d8-49dc-842b-6654f4f581b5" name="Changes" comment="recursive code added with array amendment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_pdf_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_pdf_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/working_code2.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_code2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +46,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Floyds_Aglorithm_3rd.executor": "Run",
+    "Python.Floyds_Algorithm_2nd_Attempt.executor": "Run",
     "Python.basic_pdf_code.executor": "Run",
+    "Python.working_code.executor": "Run",
+    "Python.working_code2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Python"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -70,6 +72,72 @@
       <option name="presentableId" value="Default" />
       <updated>1712417423761</updated>
     </task>
+    <task id="LOCAL-00001" summary="2nd practice code">
+      <option name="closed" value="true" />
+      <created>1712419205801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712419205801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2nd practice code didnt work">
+      <option name="closed" value="true" />
+      <created>1712420082164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712420082164</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3rd practice code didnt give an array, exit code always seems zero">
+      <option name="closed" value="true" />
+      <created>1712420505043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712420505043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="working floyd code">
+      <option name="closed" value="true" />
+      <created>1712490964821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712490964821</updated>
+    </task>
+    <task id="LOCAL-00005" summary="recursive code added">
+      <option name="closed" value="true" />
+      <created>1712491838026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712491838026</updated>
+    </task>
+    <task id="LOCAL-00006" summary="recursive code added">
+      <option name="closed" value="true" />
+      <created>1712493245525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712493245525</updated>
+    </task>
+    <task id="LOCAL-00007" summary="recursive code added with array amendment">
+      <option name="closed" value="true" />
+      <created>1712493624070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712493624070</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd practice code" />
+    <MESSAGE value="2nd practice code didnt work" />
+    <MESSAGE value="3rd practice code didnt give an array, exit code always seems zero" />
+    <MESSAGE value="working floyd code" />
+    <MESSAGE value="recursive code added" />
+    <MESSAGE value="recursive code added with array amendment" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursive code added with array amendment" />
   </component>
 </project>
